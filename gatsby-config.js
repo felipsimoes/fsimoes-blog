@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog do Felipe Simões`,
+    title: `Felipe Simões`,
     position: `Quality Engineer`,
     description: `Um blog sobre desenvolvimento e qualidade de software, com alguns extras`,
     author: `@felipsimoes`,
