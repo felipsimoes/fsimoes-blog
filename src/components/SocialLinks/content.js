@@ -7,7 +7,7 @@ const links = [
   },
   {
     label: "Twitter",
-    url: `https://twitter.com/${handle}`,
+    url: `https://twitter.com/simoescid`,
   },
   {
     label: "Linkedin",
