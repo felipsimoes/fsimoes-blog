@@ -1,9 +1,19 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
-const BlogPost = ({ data }) => {
-  const post = data.markdownRemark
-
+const BlogPost = () => {
+  const { markdownRemark } = useStaticQuery(
+    graphql`
+      query Post($slug: String) {
+        markdownRemark(fields: { slug: { eq: $slug } }) {
+          frontmatter {
+            title
+          }
+          html
+        }
+      }
+    `)
+  const post = markdownRemark
   return (
     <>
       <h1>Title: {post.frontmatter.title}</h1>
@@ -11,16 +21,5 @@ const BlogPost = ({ data }) => {
     </>
   )
 }
-
-export const query = graphql`
-  query Post($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      frontmatter {
-        title
-      }
-      html
-    }
-  }
-`
 
 export default BlogPost
