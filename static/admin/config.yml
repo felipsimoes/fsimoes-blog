@@ -24,4 +24,24 @@ collections:
           format: "YYYY-MM-DD hh:mm:ss",
         }
       - { label: "image", name: "thumbnail", widget: "image" }
+      - {
+        label: "Category",
+        name: "category",
+        widget: "select",
+        options: ["testes", "js", "dev", "misc", "gatsby", "css", "elixir"]
+      }
+      - {
+        label: "Background",
+        name: "background",
+        widget: "select",
+        options: [
+          { label: 'Testes', value: '#EB7728' },
+          { label: 'Elixir', value: '#7D669E' },
+          { label: 'Dev', value: '#637a91' },
+          { label: 'Misc', value: '#7AAB13' },
+          { label: "Gatsby", value: "#9517b5" },
+          { label: 'CSS', value: '#2DA0C3' },
+          { label: 'JS', value: '#D6BA32' },
+        ]
+      }
       - { label: "Body", name: "body", widget: "markdown" }
