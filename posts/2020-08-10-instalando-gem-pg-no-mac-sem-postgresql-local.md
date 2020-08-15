@@ -1,6 +1,6 @@
 ---
-title: Instalando gem PG no Mac sem PostgreSQL local
-description: change
+title: Instalando a gem pg no Mac sem PostgreSQL local
+description: Uma forma rápida de resolver graças ao Homebrew
 date: 2020-08-10 07:00:52
 category: dev
 background: "#637a91"
@@ -11,7 +11,7 @@ Particularmente, eu precisei trocar de máquina de desenvolvimento algumas vezes
 
 Este erro ocorre pois algumas gems, como a citada, precisam de extensões compiladas na máquina. A forma mais transparente de resolver esse problema é a instalação completa do PostgreSQL server no ambiente local, que não me interessava, afinal de contas, eu só precisava apontar o client para meu container.
 
-A seguir vai a forma como meu problema foi resolvido no Mac.
+A seguir vai a forma como meu problema foi resolvido no Mac com o [Homebrew](https://brew.sh/index_pt-br).
 
 ## PostgreSQL e libpq
 
@@ -39,3 +39,5 @@ $ bundle install
 ```
 
 Estes passos foram encontradas na seguinte [página](https://michaelrigart.be/install-pg-ruby-gem-without-postgresql/), e tomei a liberdade de compartilhar em português já que não tive muita sorte achando resultados na nossa língua.
+
+Fonte: <https://michaelrigart.be/install-pg-ruby-gem-without-postgresql/> 👏  in case you read this, thanks a lot, this hopefully will help other developers reading in Portuguese [🇧🇷](https://emojipedia.org/flag-brazil/) [🇵🇹](https://emojipedia.org/flag-portugal/)
