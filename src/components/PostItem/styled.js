@@ -6,6 +6,7 @@ export const PostItemLink = styled(Link)`
   color: var(--texts);
   display: flex;
   text-decoration: none;
+
   body#grid & {
     background-color: var(--background);
   }
@@ -20,6 +21,7 @@ export const PostItemWrapper = styled.section`
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
+
   body#grid & {
     border: none;
     padding: 2rem 1rem;
@@ -55,6 +57,7 @@ export const PostItemTag = styled.div`
     padding: .2rem .5rem;
     margin-bottom: .7rem;
   `}
+  
   body#grid & {
     margin-bottom: 1.5rem;
   }
