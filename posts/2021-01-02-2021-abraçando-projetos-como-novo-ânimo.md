@@ -17,9 +17,7 @@ Minha esposa enfrentou mais uma cirurgia, que veio de surpresa mas correu bem e 
 
 Assumi um novo desafio profissional, fui super bem acolhido pela nova empresa e me sinto muito motivado a trabalhar para conquistarmos novos sucessos com produtos de educação. A sinergia com o time é ótima, entregamos com a qualidade em foco e só tenho motivos para celebrar.
 
-O [V de Vegança](https://vdeveganca.com.br/) tem ficado cada vez melhor. A equipe ganhou um força com novos colaboradores e aprendemos com frequência. O que nos leva a querer ainda mais para o ano que chegou...
-
-
+O [V de Vegança](https://vdeveganca.com.br/) tem ficado cada vez melhor. A equipe ganhou mais força com novos colaboradores e aprendemos com frequência ao longo do ano, conversando com alguma regularidade sobre nossos objetivos. O que nos leva a querer ainda mais para o ano que chegou...
 
 O que espero de 2021:
 
@@ -48,3 +46,7 @@ Reforçar os laços com amigos que a quarentena ajudou a afastar.
 Estudar com mais afinco e compartilhar mais conteúdo de Qualidade de Software;
 
 Interagir com mais profissionais e aprender pela troca de experiências.
+
+
+
+**Espero que esse seja um ano melhor para todos. Que o difícil e marcante 2020 não seja esquecido para tomarmos escolhas mais conscientes sobre nossas vidas individuais e nossa responsabilidade social. E que daqui pra frente todos possamos trabalhar juntos para uma realidade melhor e justa, com respeito à vida sempre.**
